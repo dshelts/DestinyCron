@@ -33,7 +33,7 @@ request.get('http://db.destinytracker.com/vendors/570929315', function(err, resp
             // setup e-mail data with unicode symbols
             var mailOptions = {
                 from: 'Destiny Cron <destiny.cron.tester@gmail.com>', // sender address
-                to: 'jensen_bryan@wheatoncollege.edu', // list of receivers
+                to: 'bryanawjensen@gmail.com, sleeptotal93@gmail.com', // list of receivers
                 subject: 'Found it!', // Subject line
                 text: 'Found the fusion rifle!', // plaintext body
                 html: '<b>We have located the fusion rifle!</b>' // html body
