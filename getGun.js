@@ -25,8 +25,9 @@ request.get('http://db.destinytracker.com/vendors/570929315', function(err, resp
 	var allGuns = $(".panel.panel-warning").find(".searchTitle");
 	
     allGuns.each(function testIfGun(index, gunTag){
-        if($(gunTag).text() == "D&#228;mmerung FR5") {
-		// if($(gunTag).text() == "Darius-C") {
+        // if ($(gunTag).text() == "D&#228;mmerung FR5") {
+		// if ($(gunTag).text() == "Darius-C") {
+        if (true) {
             // NB! No need to recreate the transporter object. You can use
             // the same transporter object for all e-mails
 
